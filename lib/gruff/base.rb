@@ -847,6 +847,7 @@ module Gruff
           @d.font_weight = NormalWeight
           @d.pointsize = scale_fontsize(@marker_font_size)
           @d.gravity = NorthGravity
+          @d.rotation = -90
           @d = @d.annotate_scaled(@base_image,
                                   1.0, 1.0,
                                   x_offset, y_offset,
